@@ -31,7 +31,7 @@ int main(void)
 			}
 			j++;
 		}
-		j = '0';
+		j = i + 2;
 		i++;
 	}
 return (0);
