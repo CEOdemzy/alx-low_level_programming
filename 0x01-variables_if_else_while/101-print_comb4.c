@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - all possible combination of three digits
  *
  * Return: always 0 success
  *
@@ -11,7 +11,7 @@ int main(void)
 {
 	int i = '0';
 
-	while (i <= '7') 
+	while (i <= '7')
 	{
 		int j = i + 1;
 	while (j <= '8')
@@ -22,22 +22,20 @@ int main(void)
 		putchar(i);
 		putchar(j);
 		putchar(k);
+		if (!(i == '7' && j == '8' && k == '9'))
 		{
-			if (!(i == '7' && j == '8' && k == '9'))
-		       {
-                    putchar(',');
-                    putchar(' ');
-                }
+		putchar(',');
+		putchar(' ');
+		}
 
-                k++;
-            }
+		k++;
+	}
+	j++;
+	}
 
-            j++;
-        }
+	i++;
+	}
 
-        i++;
-    }
-
-    putchar('\n');
+	putchar('\n');
 	return (0);
 }
