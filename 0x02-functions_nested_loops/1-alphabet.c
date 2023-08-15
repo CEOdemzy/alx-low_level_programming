@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabets - function to print lower case alphabets
+ * print_alphabets - function to print lower case alphabet
  *
- * This fnction prints al the lower case alpabets in English language
+ * This function prints all the lower case alphabet in English language
  *
  * Return: 0
  */
