@@ -2,9 +2,6 @@
 
 /**
  * print_alphabets - function to print lower case alphabet
- *
- * This function prints all the lower case alphabet in English language
- *
  * Return: 0
  */
 
