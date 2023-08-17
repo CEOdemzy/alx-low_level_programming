@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - program check for uppercase character
+ * _isupper - function to check for uppercase character
  * @c: Variable testing
  * Return: Always o.
  */
