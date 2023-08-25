@@ -11,17 +11,17 @@
 
 char *leet(char *n)
 {
-	int a, b;
+	int x, y;
 
-	char leet_letters[] = "aAeEoOtT1L";
-	char leet_numbers[] = "4433007711";
+	char seven_letter[] = "aAeEoOtTlL";
+	char seven_number[] = "4433007711";
 
-	for (a = 0 ; n[a] != '\0' ; a++)
+	for (x = 0 ; n[x] != '\0' ; x++)
 	{
-		for (b = 0 ; b < 10 ; b++)
+		for (y = 0 ; y < 10 ; y++)
 		{
-			if (leet_letters[b] == n[a])
-				n[a] = leet_numbers[b];
+			if (seven_letter[y] == n[x])
+				n[x] = seven_number[y];
 		}
 	}
 	return (n);
