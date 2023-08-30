@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strchr - finds character
- * @s: string examined 
+ * @s:string examined
  * @c: interest character
  *
  * Return: 's' or NULL
